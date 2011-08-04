@@ -1,0 +1,12 @@
+{application, number_analysis,
+ [
+  {description, "Number analysis"},
+  {vsn, "1.8"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+		  mnesia
+                 ]},
+  {env, []}
+ ]}.
